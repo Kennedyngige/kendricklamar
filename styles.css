@@ -1,0 +1,81 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.header{
+    background-image: url(images/IMG-20241101-WA0238.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.6);
+
+}
+.navbar .logo{
+    font-size: 1.5em;
+
+}
+.nav-links a:hover {
+    color :#ffd700;
+
+}
+.header-content p{
+    font-size: 1.2em;
+    margin-bottom: 30px;
+    animation: fadeIn 2s ease 0.5s;
+
+}
+.cta-button{
+    padding: 15px 30px;
+    font-size: 1em;
+    color: white;
+    background-color: #ff4500;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    animation: fadein 2s ease 1s;
+
+}
+.cta-button:hover{
+    background-color: #e63600;
+
+}
+.section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+
+}
+.section p {
+    font-size: 1.1em;
+    max-width: 600px;
+    margin: 0 auto;
+
+}
+.footer {
+    padding: 20px;
+    text-align: center;
+    background-color: #333;
+    color: white;
+
+}
+ @keyframes fadeIn {
+    from { opacity: 0;
+    transform: translateY(20px);}
+    to { opacity: 1; transform: translateY(0);}
+ }
